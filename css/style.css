@@ -1,0 +1,113 @@
+:root {
+--background-1: hsl(263, 55%, 52%);
+--background-2: hsl(217, 19%, 35%);
+--background-3: hsl(219, 29%, 14%);
+--background-4: hsl(0, 0%, 100%);
+
+--background-5:hsl(0, 0%, 81%);
+--background-6: hsl(210, 46%, 95%);
+
+}
+
+html {
+background-color: var(--background-6);
+  width:1440px;
+  margin:100px;
+}
+
+body {
+  width:auto;
+  height: auto;
+  Font-size: 13px;
+}
+img {
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border:1px solid;
+}
+blockquote {
+  opacity: 0.4;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr); /* Three columns of equal width */ 
+  grid-gap: 15px; /* Optional: Add gap between grid items */
+}
+
+
+/* DANIEL */
+.grid-item-1{
+  width:auto;
+  height:auto;
+  padding: 20px;
+  background-color: var(--background-1);
+  color: #fff;
+  text-align: left;
+  white-space: wrap;
+  border-radius: 2%;
+  z-index: 1;
+}
+/* JONATHON */
+.grid-item-2{
+  width:auto;
+  height:auto;
+  padding: 20px;
+  background-color: var(--background-2);
+  color: #fff;
+  text-align: left;
+  white-space: wrap;
+  border-radius: 2%;
+}
+/* KIRA */
+.grid-item-3{
+  width:auto;
+  height: auto;
+  padding: 20px;
+  background: var(--background-2);
+  color: black;
+  text-align: left;
+  white-space: wrap;
+  border-radius: 2%;
+}
+/* JEANETTE */
+.grid-item-4{
+  width: auto;
+  height:auto;
+  padding: 20px;
+  background-color: var(--background-4);
+  color: black;
+  text-align: left;
+  white-space: wrap;
+  border-radius: 2%;
+}
+/* PATRICK */
+.grid-item-5{
+  width: auto;
+  height:auto;
+  padding: 20px;
+  background: var(--background-3);
+  color: #fff;
+  text-align: left;
+  white-space: wrap;
+  border-radius: 2%;
+}
+
+
+
+.attribution { 
+  font-size: 11px; text-align: center;
+
+}
+
+.quotation {
+  height: 150px;
+  width: 150px;
+  border-radius: 0;
+  border: 0;
+  position: absolute;
+  left:30%;
+  z-index: 2;
+  opacity: 0.5;
+
+}
